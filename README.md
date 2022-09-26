@@ -9,7 +9,7 @@ document.querySelector("#textbox").addEventListener("v-click",()=>{
   document.querySelector("#textbox").focus()
 })
 ```
-This is a bit wierd, and will probably need improvement. This is not intended to be the docs, find that [here]([https://github.com/TheTrueLuckyCoder/FakeCursor/main/README.md#docs](https://github.com/TheTrueLuckyCoder/FakeCursor/blob/main/README.md#docs)).
+This is a bit wierd, and will probably need improvement. This is not intended to be the docs, find that [here](https://github.com/TheTrueLuckyCoder/FakeCursor/main/README.md#docs](https://github.com/TheTrueLuckyCoder/FakeCursor/blob/main/README.md#docs).
 This is just something I made and is not intended for quick use, and was not developed around this idea. It is very boilerplate heavy. 
 
 
