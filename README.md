@@ -21,3 +21,23 @@ Include this code in your projects main HTML file's head tag
 ```html
 <script src="https://cdn.jsdelivr.com/"></script>
 ```
+Once you've included the resource, call the below functioons. 
+```js
+fakeCursor.init(true);
+fakeCursor.fkcs(document.querySelector("canvas.cursor-screen"), document.querySelector("img.cursor"));
+```
+The init function creates the canvas with the class cursor-screen and the cursor image with the class of cursor. The argument which we passe true in the init function tells the function that auto is set to true, the default is false. This ignores any of the other three arguments which are the canvas class, cursor image url, and the cursor image class. The fkcs function starts the code with the first argument as the canvas element and the second as the image element. 
+
+### Usage
+#### Moving the Cursor
+Simple, use the moveTo function
+##### Moving to static locations
+```js
+fakeCursor.moveTo(0,0)
+```
+This will move it to the top left of the screen. 
+##### Moving to relative locaions 
+```js
+fakeCursor.moveTo(100,100,true)
+```
+This moves the cursor 100 pixels to the left and 100 pixels down from where it currently is.
