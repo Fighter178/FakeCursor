@@ -45,3 +45,12 @@ This moves the cursor 100 pixels left and 100 pixels up from where it currently 
 fakeCursor.moveTo(-100,-100,true)
 ```
 This moves the cursor 100 pixels right and 100 pixels down from where it currently is.
+#### Capturing Events
+##### Click Even
+```js
+document.querySelector("button").addEventListener("v-click", (e)=>{
+// event code here
+/*Ex:*/console.log(e)
+})
+```
+Note: the isTrusted property will be false, as it is a custom event, but I'm sure you could capture the real click event and check if a v-click event was fired on it.
