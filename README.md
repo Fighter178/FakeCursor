@@ -9,5 +9,15 @@ document.querySelector("#textbox").addEventListener("v-click",()=>{
   document.querySelector("#textbox").focus()
 })
 ```
-This is a bit wierd, and will probably need improvement. This is not intended to be the docs, find that [here](https://www.github.com/TheTrueLuckyCoder/FakeCursor/main/docs.md).
+This is a bit wierd, and will probably need improvement. This is not intended to be the docs, find that [here](https://github.com/TheTrueLuckyCoder/FakeCursor/main/README.md#docs).
 This is just something I made and is not intended for quick use, and was not developed around this idea. It is very boilerplate heavy. 
+
+
+## Docs
+### Geting Started
+Quickstart Guide
+#### Easy Way (CDN)
+Include this code in your projects main HTML file's head tag
+```html
+<script src="https://cnd.jsdelivr.com/"></script>
+```
