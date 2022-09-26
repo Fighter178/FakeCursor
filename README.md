@@ -26,7 +26,7 @@ Once you've included the resource, call the below functioons.
 fakeCursor.init(true);
 fakeCursor.fkcs(document.querySelector("canvas.cursor-screen"), document.querySelector("img.cursor"));
 ```
-The init function creates the canvas with the class cursor-screen and the cursor image with the class of cursor. The argument which we passe true in the init function tells the function that auto is set to true, the default is false. This ignores any of the other three arguments which are the canvas class, cursor image url, and the cursor image class. The fkcs function starts the code with the first argument as the canvas element and the second as the image element. 
+The init function creates the canvas with the class cursor-screen and the cursor image with the class of cursor. The argument which we pass true in the init function tells the function that auto is set to true, the default is false. This ignores any of the other three arguments which are the canvas class, cursor image url, and the cursor image class. The fkcs function starts the code with the first argument as the canvas element and the second as the image element. 
 
 ### Usage
 #### Moving the Cursor
