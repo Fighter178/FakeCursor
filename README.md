@@ -19,7 +19,7 @@ Quickstart Guide
 #### Easy Way (CDN)
 Include this code in your projects main HTML file's head tag
 ```html
-<script src="https://cdn.jsdelivr.com/gh/Fighter178/FakeCursor/fkcs.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Fighter178/FakeCursor/fkcs.min.js"></script>
 ```
 Once you've included the resource, call the below functioons. 
 ```js
