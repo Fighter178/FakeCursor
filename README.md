@@ -56,3 +56,23 @@ document.querySelector("button").addEventListener("v-click", (e)=>{
 })
 ```
 Note: the isTrusted property will be false, as it is a custom event, but I'm sure you could capture the real click event and check if a v-click event was fired on it. The mousedown and mouseup events are not currently supported 
+#### Switching the Cursor Image
+To switch the cursor image, use fakeCursor.img = [image element]
+JS:
+```js
+fakeCursor.img = document.querySelector("img.pointer-cursor")
+```
+HTML:
+```html
+<img class="pointer-cursor" width="12" height="16">
+```
+This could, for example, swtich the cursor to a pointer image instead of the default arrow. Note: The pointer image is not built-in, only the arrow is. 
+#### Getting the Cursor's Position
+To get the cursor's position, use fakeCursor.x and fakeCursor.y.
+```js
+// get the x cordinate
+fakeCursor.x // this returns the X cordinate of the cursor.
+// get the y cordinate
+fakeCursor.y // this returns the Y cordiinate of the cursor.
+```
+
