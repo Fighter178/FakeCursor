@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- THIS IS A DEMO FILE. RUN IN YOUR BROWSER. BUILT WITH VANILLA JS, HTML, & CSS -->
+<html>
+<head>
+    <title>Hello World</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Fighter178/FakeCursor/fkcs.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        fkcs.init(true)
+        fkcs.fkcs(document.querySelector("canvas.cursor-screen"), document.querySelector("img.cursor"));
+        document.querySelectorAll("button")[0].addEventListener("v-click", () => {
+            swalf("Click!", "", "success")
+        })
+        document.querySelectorAll("button")[1].addEventListener("v-click", () => {
+            swalf("More Info", "This is a simple little project and is definityly not for everyone, but if you need it, it's here. I am aware that this does not solve an actual or serious problem, but if anyone needs this it works. ", "info")
+        })
+    })
+    </script>
+    <style>
+    #canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        z-index: 99999999;
+    }
+
+    .cursor {
+        display: none;
+    }
+
+    .notify-module {
+        width: 8em;
+        height: 1.5em;
+        background-color: darkgray;
+        opacity: 0.7;
+        position: absolute;
+        display: none;
+        right: 0;
+        bottom: 0;
+        transition: ease-in-out 0.25s;
+    }
+
+    .notify-module>.text {
+        margin: 0.2em;
+        padding: 0.1em;
+        font-size: 1em;
+        color: black;
+        opacity: 1;
+    }
+
+    * {
+        font-family: sans-serif;
+    }
+
+    body {
+        overflow: hidden;
+    }
+    </style>
+</head>
+<body>
+    <button>Hi</button>
+    <button>Learn More</button>
+    <canvas id="canvas"></canvas>
+    <!--this was a cursor image that 'works' but is not the best.-->
+    <!--<img src="https://i.ibb.co/BL2MH2c/images-removebg-preview.png" width="12" height="16" class="cursor">-->
+    <p>Fake Cursor Demo (fkcs)</p>
+    <p>Hilighting is not supported.</p>
+    <h2>Instructions</h2>
+    <ul>
+        <li>Click on a blank part of the screen</li>
+        <li>Move your (now fake) cursor around</li>
+        <li>To escape, press escape</li>
+    </ul>
+    <h3>Advantages</h3>
+    <ul>
+        <li>User cannot move cursor over restricted areas (v2+)</li>
+        <li>Keep users on page logner</li>
+        <li>Complete cursor control (v2+), eg. moving it with JS/TS</li>
+        <li>Resize cursor on specific pages (use resize function)</li>
+        <li>I'm sure that there are many others, and you can definityly find more, but these are all I could think of</li>
+    </ul>
+</body>
+</html>
