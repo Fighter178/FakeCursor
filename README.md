@@ -17,7 +17,7 @@ This is just something I made and is not intended for quick use, and was not dev
 ### Geting Started
 Quickstart Guide
 #### Easy Way (CDN)
-Include this code in your projects main HTML file's head tag
+Include this code in your project's main HTML file's head tag
 ```html
 <script src="https://cdn.jsdelivr.net/gh/Fighter178/FakeCursor/fkcs.min.js"></script>
 ```
