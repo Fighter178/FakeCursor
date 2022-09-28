@@ -42,11 +42,11 @@ This will move it to the top left of the screen.
 ```js
 fakeCursor.moveTo(100,100,true)
 ```
-This moves the cursor 100 pixels left and 100 pixels up from where it currently is. 
+This moves the cursor 100 pixels right and 100 pixels up from where it currently is. 
 ```js
 fakeCursor.moveTo(-100,-100,true)
 ```
-This moves the cursor 100 pixels right and 100 pixels down from where it currently is.
+This moves the cursor 100 pixels left and 100 pixels down from where it currently is.
 #### Capturing Events
 ##### Click Event
 ```js
