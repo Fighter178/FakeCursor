@@ -1,4 +1,4 @@
-//MIT LICENSE
+//Apache Software License 2.0 
 // Copyright (c) 2022 Fighter178 
 let x = 0,
     y = 0;
