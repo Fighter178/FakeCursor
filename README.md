@@ -53,4 +53,4 @@ document.querySelector("button").addEventListener("v-click", (e)=>{
 /*Ex:*/console.log(e)
 })
 ```
-Note: the isTrusted property will be false, as it is a custom event, but I'm sure you could capture the real click event and check if a v-click event was fired on it.
+Note: the isTrusted property will be false, as it is a custom event, but I'm sure you could capture the real click event and check if a v-click event was fired on it. The mouseover, mousedown, mouseup events are not supported currently. 
